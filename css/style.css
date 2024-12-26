@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-wrapper {
+    display: flex;
+}
+
+.logo-block {
+    border-bottom: 1px solid #002B81;
+}
+
+.sidebar {
+    padding: 12px 28px;
+    background: #E7EEFF;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7EEFF;
+    padding: 20px 0;
+}
+
+.search-block {
+    display: flex;
+    gap: 12px;
+}
+
+.search-text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-block {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.user-text {
+    color: #5E6577;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1144px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding-bottom: 42px;
+}
+
+.guest-block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.guest-ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.guest-li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 24px 8px 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+
+.guest-text {
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+}
+
+.card {
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+    max-width: 353px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-text {
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+}
